@@ -1,0 +1,23 @@
+<app-product-details [movie]="selectedMovie"></app-product-details>
+<div class="container">
+	<table class="table table-danger table-striped-columns">
+		<thead>
+			<tr>
+
+			<th scope="col">ID</th>
+			<th scope="col">Title</th>
+			<th scope="col">Details</th>
+
+			</tr>
+		</thead>
+		<tbody>
+
+			<tr *ngFor ="let movie of movies">
+			<th scope="row">{{movie.id}}</th>
+			<td>{{movie.title}}</td>
+			
+			<td><button type="button" class="btn btn-dark" data-bs-target="#exampleModal"  [class.selected]="movie === selectedMovie" (click)="onSelect(movie)">Details</button></td>
+			</tr>
+			</tbody>
+	</table>
+</div>

@@ -6,4 +6,4 @@ export interface Movie {
 	mainactor: string;
 	director: string;
 	releasedate: number;
-}
+} 

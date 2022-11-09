@@ -9,6 +9,8 @@ import { ProductsListComponent } from './product-list/product-list.component';
 import { SellerPageComponent } from './seller-page/seller-page.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { LoginComponent } from './login/login.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { AccountListComponent } from './account-list/account-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { LoginComponent } from './login/login.component';
     ProductsListComponent,
     SellerPageComponent,
     AccountsComponent,
-    LoginComponent
+    LoginComponent,
+    RegistrationComponent,
+    AccountListComponent
   ],
   imports: [
     BrowserModule,

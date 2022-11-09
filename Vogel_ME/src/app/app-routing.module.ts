@@ -7,6 +7,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { SellerPageComponent } from './seller-page/seller-page.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { LoginComponent } from './login/login.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { AccountListComponent } from './account-list/account-list.component';
 
 const routes: Routes = [
   {path: 'navigation', component: NavigationComponent},
@@ -15,6 +17,8 @@ const routes: Routes = [
   {path: 'seller_page', component: SellerPageComponent},
   {path: 'accounts', component: AccountsComponent},
   {path: 'login', component: LoginComponent},
+  {path: 'register', component: RegistrationComponent},
+  {path: 'account_list', component: AccountListComponent},
 
 ];
 
